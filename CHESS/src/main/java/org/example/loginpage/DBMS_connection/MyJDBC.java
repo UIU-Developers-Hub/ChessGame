@@ -5,7 +5,7 @@ import java.sql.*;
 public class MyJDBC {
     public static final String DB_URL ="jdbc:mysql://127.0.0.1:3306/chesslogin";
     public static final String DB_username= "root";
-    public static String DB_password= "Tarequl@0112310338#";
+    public static String DB_password= "..................";
     public static String DB_user_table_name= "user";
     public static boolean register(String username, String password) {
         if(!CheckUser(username)){
